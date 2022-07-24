@@ -14,6 +14,21 @@
 		36E660A2288D36A800E13312 /* CoffeeShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660A1288D36A800E13312 /* CoffeeShopTests.swift */; };
 		36E660AC288D36A800E13312 /* CoffeeShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660AB288D36A800E13312 /* CoffeeShopUITests.swift */; };
 		36E660AE288D36A800E13312 /* CoffeeShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660AD288D36A800E13312 /* CoffeeShopUITestsLaunchTests.swift */; };
+		36E660BC288D36E600E13312 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660BB288D36E600E13312 /* Coffee.swift */; };
+		36E660BD288D36E600E13312 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660BB288D36E600E13312 /* Coffee.swift */; };
+		36E660BE288D36E600E13312 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660BB288D36E600E13312 /* Coffee.swift */; };
+		36E660C0288D380500E13312 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660BF288D380500E13312 /* Order.swift */; };
+		36E660C1288D380500E13312 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660BF288D380500E13312 /* Order.swift */; };
+		36E660C2288D380500E13312 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660BF288D380500E13312 /* Order.swift */; };
+		36E660C5288D388E00E13312 /* CoffeeRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660C4288D388E00E13312 /* CoffeeRepo.swift */; };
+		36E660C6288D388E00E13312 /* CoffeeRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660C4288D388E00E13312 /* CoffeeRepo.swift */; };
+		36E660C7288D388E00E13312 /* CoffeeRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660C4288D388E00E13312 /* CoffeeRepo.swift */; };
+		36E660CB288D3D7200E13312 /* CoffeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660CA288D3D7200E13312 /* CoffeeListViewModel.swift */; };
+		36E660CC288D3D7200E13312 /* CoffeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660CA288D3D7200E13312 /* CoffeeListViewModel.swift */; };
+		36E660CD288D3D7200E13312 /* CoffeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660CA288D3D7200E13312 /* CoffeeListViewModel.swift */; };
+		36E660D3288D3FBD00E13312 /* CoffeeListVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660D2288D3FBD00E13312 /* CoffeeListVIew.swift */; };
+		36E660D4288D3FBD00E13312 /* CoffeeListVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660D2288D3FBD00E13312 /* CoffeeListVIew.swift */; };
+		36E660D5288D3FBD00E13312 /* CoffeeListVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E660D2288D3FBD00E13312 /* CoffeeListVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +59,12 @@
 		36E660A7288D36A800E13312 /* CoffeeShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E660AB288D36A800E13312 /* CoffeeShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopUITests.swift; sourceTree = "<group>"; };
 		36E660AD288D36A800E13312 /* CoffeeShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36E660BB288D36E600E13312 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		36E660BF288D380500E13312 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		36E660C4288D388E00E13312 /* CoffeeRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRepo.swift; sourceTree = "<group>"; };
+		36E660C8288D3A6F00E13312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36E660CA288D3D7200E13312 /* CoffeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeListViewModel.swift; sourceTree = "<group>"; };
+		36E660D2288D3FBD00E13312 /* CoffeeListVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeListVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +115,15 @@
 		36E6608F288D36A800E13312 /* CoffeeShop */ = {
 			isa = PBXGroup;
 			children = (
+				36E660C9288D3D5F00E13312 /* ViewModels */,
+				36E660C3288D388200E13312 /* Repo */,
+				36E660BA288D36B300E13312 /* Models */,
 				36E66090288D36A800E13312 /* CoffeeShopApp.swift */,
 				36E66092288D36A800E13312 /* ContentView.swift */,
 				36E66094288D36A800E13312 /* Assets.xcassets */,
+				36E660C8288D3A6F00E13312 /* Info.plist */,
 				36E66096288D36A800E13312 /* Preview Content */,
+				36E660D2288D3FBD00E13312 /* CoffeeListVIew.swift */,
 			);
 			path = CoffeeShop;
 			sourceTree = "<group>";
@@ -125,6 +151,31 @@
 				36E660AD288D36A800E13312 /* CoffeeShopUITestsLaunchTests.swift */,
 			);
 			path = CoffeeShopUITests;
+			sourceTree = "<group>";
+		};
+		36E660BA288D36B300E13312 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36E660BB288D36E600E13312 /* Coffee.swift */,
+				36E660BF288D380500E13312 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36E660C3288D388200E13312 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				36E660C4288D388E00E13312 /* CoffeeRepo.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		36E660C9288D3D5F00E13312 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				36E660CA288D3D7200E13312 /* CoffeeListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E660C5288D388E00E13312 /* CoffeeRepo.swift in Sources */,
 				36E66093288D36A800E13312 /* ContentView.swift in Sources */,
+				36E660CB288D3D7200E13312 /* CoffeeListViewModel.swift in Sources */,
 				36E66091288D36A800E13312 /* CoffeeShopApp.swift in Sources */,
+				36E660C0288D380500E13312 /* Order.swift in Sources */,
+				36E660D3288D3FBD00E13312 /* CoffeeListVIew.swift in Sources */,
+				36E660BC288D36E600E13312 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E660C6288D388E00E13312 /* CoffeeRepo.swift in Sources */,
+				36E660C1288D380500E13312 /* Order.swift in Sources */,
+				36E660D4288D3FBD00E13312 /* CoffeeListVIew.swift in Sources */,
 				36E660A2288D36A800E13312 /* CoffeeShopTests.swift in Sources */,
+				36E660BD288D36E600E13312 /* Coffee.swift in Sources */,
+				36E660CC288D3D7200E13312 /* CoffeeListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E660C7288D388E00E13312 /* CoffeeRepo.swift in Sources */,
 				36E660AE288D36A800E13312 /* CoffeeShopUITestsLaunchTests.swift in Sources */,
+				36E660CD288D3D7200E13312 /* CoffeeListViewModel.swift in Sources */,
 				36E660AC288D36A800E13312 /* CoffeeShopUITests.swift in Sources */,
+				36E660C2288D380500E13312 /* Order.swift in Sources */,
+				36E660D5288D3FBD00E13312 /* CoffeeListVIew.swift in Sources */,
+				36E660BE288D36E600E13312 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +487,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeShop/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +516,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeShop/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
