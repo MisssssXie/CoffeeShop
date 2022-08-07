@@ -9,16 +9,16 @@ import Foundation
 
 struct Coffee {
     let name: String
-    let imageUurl: String
+    let imageUrl: String
     let price: Double
 }
 
 extension Coffee {
     
     static func all() -> [Coffee] {
-        return [Coffee(name: "Cappuccino", imageUurl: "Cappuccino", price: 50),
-                Coffee(name: "Expresso", imageUurl: "Expresso", price: 99),
-                Coffee(name: "Regular", imageUurl: "Regular", price: 40)
+        return [Coffee(name: "Cappuccino", imageUrl: "Cappuccino", price: 50),
+                Coffee(name: "Expresso", imageUrl: "Expresso", price: 99),
+                Coffee(name: "Regular", imageUrl: "Regular", price: 40)
         ]
     }
 }

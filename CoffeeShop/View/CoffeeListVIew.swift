@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CoffeeListView: View {
     
+    
     let orders: [OrderViewModel]
     
     init(orders: [OrderViewModel]) {
@@ -23,7 +24,7 @@ struct CoffeeListView: View {
                         .resizable()
                         .frame(width: 100, height: 100)
                         .cornerRadius(50)
-                    VStack {
+                    VStack(alignment: .leading) {
                         Text(order.name)
                             .font(.title)
                             .padding([.leading, .bottom], 10)
